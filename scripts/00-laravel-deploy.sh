@@ -8,6 +8,9 @@ php artisan config:cache
 echo "Caching routes..."
 php artisan route:cache
 
+echo "Linking Storage"
+php artisan storage:link
+
 echo "Running vite..."
 npm install
 npm run build
